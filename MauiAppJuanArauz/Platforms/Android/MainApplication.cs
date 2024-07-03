@@ -11,6 +11,6 @@ namespace MauiAppJuanArauz
         {
         }
 
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        protected override MauiApp CreateMauiApp() => MauiProgramJJA.CreateMauiApp();
     }
 }

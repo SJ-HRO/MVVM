@@ -71,19 +71,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\AboutPage.xaml.cs">
-	    <DependentUpon>AboutPage.xaml</DependentUpon>
+	  <Compile Update="AppJJA.xaml.cs">
+	    <DependentUpon>AppJJA.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="AppShellJJA.xaml.cs">
+	    <DependentUpon>AppShellJJA.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\AllNotesPageJJA.xaml.cs">
+	    <DependentUpon>AllNotesPageJJA.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\NotePageJJA.xaml.cs">
+	    <DependentUpon>NotePageJJA.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\AboutPage.xaml">
+	  <MauiXaml Update="Views\AboutPageJJA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\AllNotesPage.xaml">
+	  <MauiXaml Update="Views\AllNotesPageJJA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\NotePage.xaml">
+	  <MauiXaml Update="Views\NotePageJJA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

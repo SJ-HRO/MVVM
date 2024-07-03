@@ -2,7 +2,7 @@
 
 namespace MauiAppJuanArauz
 {
-    public static class MauiProgram
+    public static class MauiProgramJJA
     {
         public static MauiApp CreateMauiApp()
         {
